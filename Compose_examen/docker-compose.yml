@@ -1,0 +1,10 @@
+version: '1'
+services:
+  servicio_web:
+    image: httpd
+    container_name: web
+    ports:
+      -8082:80
+  base_datos:
+    image: mysql:8.0
+    MYSQL_ROOT_PASSWORD: root 
