@@ -1,0 +1,1 @@
+print("Aplicación Python ejecutada desde un contenedor")
